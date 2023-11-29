@@ -1,0 +1,13 @@
+<div class="todos">
+  <div class="todo">
+    <ul class="todo-list">
+    @for (todo of todos; track todo.content) {
+    <li>
+    <div class="content">{{todo.content}}
+      </div>
+    <button class="delete">Remove</button>
+    </li>
+    }
+    </ul>
+  </div>
+</div>
